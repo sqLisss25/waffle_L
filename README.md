@@ -2,8 +2,7 @@
 
 Учебный телеграм-бот на Python (aiogram 3), который составляет план питания.
 
-@waffle_with_losos_bot
-https://t.me/waffle_with_losos_bot
+@waffle_with_losos_bot | https://t.me/waffle_with_losos_bot
 
 ## Что делает бот
 
