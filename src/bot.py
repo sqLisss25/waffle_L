@@ -690,7 +690,7 @@ async def call_llm(prompt: str, system: str = "Ты полезный ассис�
     logger.info("Отправка запроса к LLM")
     try:
         response = OPENAI_CLIENT.chat.completions.create(
-            model="nvidia/nemotron-3-super-120b-a12b:free",
+            model="...",  # необходимо вставить имя модели, тестировалось на модели "nvidia/nemotron-3-super-120b-a12b:free"
             messages=[
                 {"role": "system", "content": system},
                 {"role": "user", "content": prompt},
