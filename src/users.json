@@ -1,0 +1,40 @@
+{
+  "123456789": {
+    "gender": "male",
+    "age": "24-26",
+    "cooking_frequency": "every_day",
+    "priorities": [
+      "diversity",
+      "taste"
+    ],
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "height": 180,
+    "weight": 75,
+    "persons": 2,
+    "current_plan": {
+      "created_at": "2026-06-17T12:00:00",
+      "days": [
+        {
+          "day": 1,
+          "meals": [
+            {
+              "type": "breakfast",
+              "recipe_id": "52873",
+              "name": "Фриттата с овощами",
+              "calories": 420,
+              "note": "Лёгкий завтрак с адаптированными ингредиентами",
+              "adapted_ingredients": [],
+              "adapted_instructions": "...",
+              "servings": 2
+            }
+          ],
+          "total_calories": 2050
+        }
+      ]
+    }
+  }
+}
